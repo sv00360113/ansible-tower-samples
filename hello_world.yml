@@ -11,7 +11,7 @@
         src: /home/techmadmin/Desktop/test.txt 
         dest: /tmp/test.txt
         owner: awx
-        group: awz
+        group: awx
         mode: 0644
       
 
