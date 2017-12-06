@@ -7,7 +7,7 @@
     - name: run the shell command
       shell: echo "HelloWorld"
     - name: copy one file to another
-    - copy:
+      copy:
         src: /home/techmadmin/Desktop/test.txt 
         dest: /tmp/test.txt
         owner: awx
