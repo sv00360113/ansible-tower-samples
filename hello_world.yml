@@ -10,6 +10,7 @@
       copy: 
         src: /home/techmadmin/Desktop/test.txt 
         dest: /tmp/test.txt 
+        state: file
         group: awx
         owner: awx
         mode: 0644
